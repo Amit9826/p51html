@@ -1,0 +1,10 @@
+p{
+    color: red;
+        font-size: 60px;
+        font-style: italic;
+        text-decoration: underline;
+        /* letter-spacing: 10px; */
+        word-spacing: 30px;
+        background-color: blue;
+
+}
