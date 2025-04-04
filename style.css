@@ -1,10 +1,41 @@
-p{
+/* p{
     color: red;
         font-size: 60px;
         font-style: italic;
         text-decoration: underline;
         /* letter-spacing: 10px; */
-        word-spacing: 30px;
-        background-color: blue;
+        /* word-spacing: 30px;
+        background-color: blue; */
 
+/* }
+h1{
+    font-style: italic;
+    text-decoration: underline;
+    word-spacing: 50px;
+    color: ;
+} */ */
+
+#para1{
+    color: red;
+    font-style: italic;
+     border: 20px;
+    background-color: blue; */ */
+    /* color: blue; */
+    /* border-width: 2px; */
+    */
+    /* border color: blue; */ */
+    /* border:3px solid blue; */
+    /* border-style: solid; background-color: red;
+    /* padding:10px;
+    margin: 10px; */
+}
+.para2{
+    color: blue;
+    border-width: 2px;
+    border-style: solid;
+    border color: blue;
+    border:3px solid blue;
+    background-color: red;
+    padding:10px;
+    margin: 10px;
 }
