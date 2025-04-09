@@ -9,8 +9,12 @@
     background-color: lightblue;
     
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
     justify-content: center;
     align-items: center;
+    /* flex-wrap: wrap; */
     gap: 10px;
 /* justify center, justify-between , space-evenly */
 }
