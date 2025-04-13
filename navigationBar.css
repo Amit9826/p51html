@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    width: 100%;
+    /* padding: 0 10px; */
+}
+.top-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    height: 35px;
+    padding: 0 60px;
+}
+.top-nav-left ul li, .top-nav-right ul li {
+    display: inline;
+
+}
+.top-nav-left ul li a, .top-nav-right ul li a{
+    text-decoration: none;
+    margin: 0px 15px;
+    font-size: 14px;
+    color: #616060;
+}
+top-nav-right ul li a{
+    margin: 0 6px;
+}
+.middle-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+.middle-nav .mid-nav-center ul li{
+    display: inline;
+}
+.middle-nav .mid-nav-right ul li{
+    display: inline;
+}
+.middle-nav .mid-nav-center ul li a{
+    margin: 0 13px;
+    text-decoration: none;
+    color: #616060;
+    font-size: 16px;
+    font-weight: 550;
+}
+.middle-nav .mid-nav-center ul li a:hover{
+    color: rgb(231, 9, 9)
+}
+.middle-nav .mid-nav-right ul li a{
+    margin: 0 12px;
+    color: #5e5c5c;
+    font-size: 22px;
+}
+.middle-nav .logo h1{
+    font-size: 30px;
+    color: rgb(235, 8, 8);
+    font-weight: 800;
+}
+.middle-nav .logo h1 span{
+    font-size: 25px;
+    color: rgb(77, 76, 76);
+    font-weight: 800;
+}
+.bottom-nav{
+    background: #000;
+    height: 50px;
+}
+.bottom-nav p{
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+}
+.bottom-nav p a{
+    color: #e49449;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-size: 15px;
+    font-weight: 600;
+
+}
