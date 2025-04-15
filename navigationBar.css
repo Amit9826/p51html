@@ -4,6 +4,13 @@
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+body{
+    height: 100vh;
+    background: url('83879978-back-view-of-young-man-holding-paper-bags-and-looking-away-at-shopping-mall.jpg');
+    background-repeat: no-repeat;
+     background-position: center;
+    background-size: cover; 
+}
 header{
     width: 100%;
     /* padding: 0 10px; */
@@ -38,6 +45,7 @@ top-nav-right ul li a{
 }
 .middle-nav .mid-nav-center ul li{
     display: inline;
+    font-weight: 999;
 }
 .middle-nav .mid-nav-right ul li{
     display: inline;
@@ -48,6 +56,37 @@ top-nav-right ul li a{
     color: #616060;
     font-size: 16px;
     font-weight: 550;
+}
+.men{
+    position: relative;
+}
+.dropdown{
+    background: #000;
+    position: absolute;
+    top: 20px;
+    width: 170px;
+    left: 0px;
+} 
+.dropdown > li > a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+    display: block;
+    background: #000;
+    border: 1px solid #969496;
+}
+.dropdown > li > a:hover{
+
+    background:#99de99;
+    color: #000;
+    display: none;
+    
+}
+.men:hover .dropdown{
+    display: black;
+
 }
 .middle-nav .mid-nav-center ul li a:hover{
     color: rgb(231, 9, 9)
